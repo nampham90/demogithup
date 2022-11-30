@@ -1,0 +1,17 @@
+git branch // danh sách các nhánh trong rep
+git checkout {branch name} // truy cập vào branch
+git checkout -b {branch name} // tạo một nhánh mới
+git merge {branch name} // tổng hợp branch hiện tại với branch cần tổng hợp (branch name)
+git branch -d {branch name} // xóa branch
+
+git remote add githup_nampham https://github.com/nampham90/demogithup.git // add 1 remote
+git push githup_nampham master // đây dự liệu lên remote
+
+
+git remote -v // hiển thị danh sách các remote
+
+git push - u githup_nampham dev // đẩy branch từ local lên remote
+
+git fetch origin // hiện thị tất các nhanh trên remote
+
+git checkout -b {branch name} origin/{branch name} // lấy một nhánh từ remote về local
